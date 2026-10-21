@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Myéline — Assistant</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- Barre latérale -->
+  <aside class="side">
+    <div class="brand">
+      <svg class="sym" viewBox="0 0 100 61"><path class="arc" d="M5.5 11a44.5 44.5 0 0 0 89 0"/><circle class="dot" cx="50" cy="15.5" r="15.5"/></svg>
+      <span class="word">myéline</span>
+    </div>
+    <div class="brand-tag mono">IA souveraine · Sur site</div>
+
+    <button class="btn-new"><i data-i="plus"></i><span>Nouvelle conversation</span><kbd>⌘ K</kbd></button>
+    <nav class="nav">
+      <a class="nav-item"><i data-i="search"></i><span>Recherche</span><kbd>/</kbd></a>
+    </nav>
+
+    <div data-view="home">
+      <div class="sect mono">Conversations</div>
+      <div class="empty">
+        <i data-i="messages-square"></i>
+        <div><strong>Aucune conversation</strong><span>Vos échanges apparaîtront ici, conservés sur vos serveurs.</span></div>
+      </div>
+    </div>
+
+    <div data-view="chat">
+      <div class="sect mono">Aujourd’hui</div>
+      <a class="conv active">Clauses essentielles des CGV</a>
+      <a class="conv">Synthèse du rapport annuel 2025</a>
+      <div class="sect mono">7 derniers jours</div>
+      <a class="conv">Contrat de prestation IT — vigilance</a>
+      <a class="conv">Note RGPD : sous-traitants</a>
+      <a class="conv">Comparatif des offres cloud souverain</a>
+      <a class="conv">Procédure d’accueil des nouveaux arrivants</a>
+    </div>
+
+    <div class="grow"></div>
+    <a class="nav-item"><i data-i="plug"></i><span>Connecteurs</span><span class="badge mono">3 actifs</span></a>
+    <div class="user">
+      <div class="avatar">A</div>
+      <div class="who"><strong>Audrey</strong><span>Espace entreprise</span></div>
+      <button class="icon-btn"><i data-i="moon" data-theme="light"></i><i data-i="sun" data-theme="dark"></i></button>
+      <button class="icon-btn"><i data-i="log-out"></i></button>
+    </div>
+  </aside>
+
+  <!-- Zone principale -->
+  <main class="main">
+    <header class="top">
+      <div class="crumbs mono" data-view="home">Espace de travail<i>/</i><b>Assistant</b></div>
+      <div class="chat-title" data-view="chat"><span>Clauses essentielles des CGV</span><span class="chip-mono mono">4 sources</span></div>
+      <div class="top-actions">
+        <div class="pill mono"><i data-i="lock"></i>Environnement privé</div>
+        <button class="icon-btn outline" data-view="chat"><i data-i="share-2"></i></button>
+        <button class="icon-btn outline"><i data-i="ghost"></i></button>
+      </div>
+    </header>
+
+    <!-- Vue : accueil -->
+    <section class="home" data-view="home">
+      <div class="hero">
+        <svg class="sym sym-lg" viewBox="0 0 100 61"><path class="arc" d="M5.5 11a44.5 44.5 0 0 0 89 0"/><circle class="dot" cx="50" cy="15.5" r="15.5"/></svg>
+        <h1>Votre expertise, augmentée.</h1>
+        <p>Des réponses claires, vérifiées et sourcées — sans que vos données ne quittent jamais votre périmètre.</p>
+
+        <div class="composer">
+          <div class="c-input"><i data-i="file-text"></i><span class="ph">Quelles clauses prévoir dans mes conditions générales de vente ?</span><kbd>Tab</kbd></div>
+          <div class="c-bar">
+            <button class="c-plus"><i data-i="plus"></i></button>
+            <button class="c-chip"><i data-i="gauge"></i>Équilibré</button>
+            <span class="c-sep"></span>
+            <button class="c-chip"><i data-i="sparkles" class="accent"></i>Automatique<i data-i="chevron-down" class="muted"></i></button>
+            <div class="grow"></div>
+            <button class="c-mic"><i data-i="mic"></i></button>
+            <button class="c-send"><i data-i="arrow-up"></i></button>
+          </div>
+        </div>
+
+        <div class="suggest">
+          <button><i data-i="file-search"></i>Analyser un contrat</button>
+          <button><i data-i="scroll-text"></i>Résumer un rapport</button>
+          <button><i data-i="columns-2"></i>Comparer des documents</button>
+          <button><i data-i="pen-line"></i>Rédiger une réponse</button>
+        </div>
+      </div>
+      <footer class="foot mono"><i data-i="shield-check"></i>Données hébergées sur vos serveurs<span class="sep">·</span>Myéline peut se tromper : vérifiez les sources citées.</footer>
+    </section>
+
+    <!-- Vue : conversation -->
+    <section class="chat" data-view="chat">
+      <div class="thread">
+        <div class="msg-user">
+          <div class="attach mono"><i data-i="file-text"></i>CGV_2025_v3.pdf <em>· 6 p.</em></div>
+          <div class="bubble">Quelles clauses prévoir dans mes conditions générales de vente ?</div>
+        </div>
+
+        <div class="msg-ai">
+          <div class="ai-head">
+            <span class="ai-av"><svg class="sym" viewBox="0 0 100 61"><path class="arc" d="M5.5 11a44.5 44.5 0 0 0 89 0"/><circle class="dot" cx="50" cy="15.5" r="15.5"/></svg></span>
+            <strong>Myéline</strong>
+            <span class="meta mono">Équilibré · 6,2 s</span>
+          </div>
+          <div class="steps mono"><i data-i="check"></i>1 document interne analysé <i>·</i> 3 textes de loi vérifiés sur Légifrance</div>
+
+          <div class="answer">
+            <p>J’ai croisé votre modèle actuel avec le Code de la consommation et le Code de commerce.</p>
+            <h3>Clauses obligatoires</h3>
+            <ol>
+              <li><strong>Identification du vendeur</strong> — dénomination, siège social, n° RCS et TVA intracommunautaire.<span class="cite">1</span></li>
+              <li><strong>Prix et paiement</strong> — délais, pénalités de retard, indemnité forfaitaire de 40 €.<span class="cite">2</span></li>
+              <li><strong>Droit de rétractation</strong> — 14 jours pour toute vente à distance à un consommateur.<span class="cite">3</span></li>
+            </ol>
+            <p class="more">À compléter : limitation de responsabilité, réserve de propriété, juridiction compétente.</p>
+            <div class="callout"><i data-i="info"></i><div><strong>Point d’attention</strong> — votre modèle actuel ne mentionne pas l’indemnité forfaitaire de 40 €.<span class="cite">4</span></div></div>
+          </div>
+
+          <div class="sources">
+            <div class="src"><div class="src-top mono"><span class="n">1</span>Légifrance<i data-i="landmark"></i></div><div class="src-t">Art. L111-1</div><div class="src-s">Code de la consommation</div></div>
+            <div class="src"><div class="src-top mono"><span class="n">2</span>Légifrance<i data-i="landmark"></i></div><div class="src-t">Art. L441-10</div><div class="src-s">Code de commerce</div></div>
+            <div class="src"><div class="src-top mono"><span class="n">3</span>Légifrance<i data-i="landmark"></i></div><div class="src-t">Art. L221-18</div><div class="src-s">Code de la consommation</div></div>
+            <div class="src"><div class="src-top mono"><span class="n">4</span>Interne<i data-i="lock"></i></div><div class="src-t">CGV_2025_v3.pdf</div><div class="src-s">Drive juridique · p. 4</div></div>
+          </div>
+
+          <div class="actions">
+            <span class="a"><i data-i="copy"></i></span>
+            <span class="a"><i data-i="refresh-cw"></i></span>
+            <span class="a"><i data-i="thumbs-up"></i></span>
+            <span class="a"><i data-i="thumbs-down"></i></span>
+            <div class="grow"></div>
+            <span class="verified mono"><i data-i="shield-check"></i>Réponse vérifiée · 4 sources</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dock">
+        <div class="composer">
+          <div class="c-input"><span class="ph">Posez une question complémentaire…</span></div>
+          <div class="c-bar">
+            <button class="c-plus"><i data-i="plus"></i></button>
+            <button class="c-chip"><i data-i="gauge"></i>Équilibré</button>
+            <span class="c-sep"></span>
+            <button class="c-chip"><i data-i="sparkles" class="accent"></i>Automatique<i data-i="chevron-down" class="muted"></i></button>
+            <div class="grow"></div>
+            <button class="c-mic"><i data-i="mic"></i></button>
+            <button class="c-send"><i data-i="arrow-up"></i></button>
+          </div>
+        </div>
+        <footer class="foot mono"><i data-i="shield-check"></i>Données hébergées sur vos serveurs<span class="sep">·</span>Myéline peut se tromper : vérifiez les sources citées.</footer>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  // ?view=home|chat  &theme=light|dark
+  const params = new URLSearchParams(location.search);
+  const view = params.get("view") || "home";
+  const theme = params.get("theme") || "light";
+  document.documentElement.classList.toggle("dark", theme === "dark");
+  document.querySelectorAll("[data-view]").forEach(el => el.dataset.view !== view && el.remove());
+  document.querySelectorAll("[data-theme]").forEach(el => el.dataset.theme !== theme && el.remove());
+</script>
+</body>
+</html>
