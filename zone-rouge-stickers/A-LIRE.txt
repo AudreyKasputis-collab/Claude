@@ -1,0 +1,23 @@
+ZONE ROUGE — Club automobile · 9 stickers
+
+svg/  -> fichiers vectoriels (à donner à l'imprimeur : qualité infinie, toutes tailles)
+png/  -> aperçus 2400 px, fond transparent
+
+Couleurs
+  Rouge Zone  #E3262B
+  Noir Piste  #121212
+  Os          #F2EDE3  (blanc cassé ; en vinyle découpé -> blanc)
+
+Tailles conseillées
+  01 Logo principal ........ 15 x 7,5 cm
+  02 Monogramme Z .......... 6 x 6 cm (trappe à essence, rétro)
+  03 Lettrage lunette ...... 40 cm de large, vinyle découpé blanc + rouge
+  04 Bandeau pare-soleil ... 130 x 16,5 cm, vinyle découpé
+  05 Roundel ............... 10 cm
+  06 Compte-tours .......... 10 cm
+  07 Plaque rallye ......... 30 x 21 cm (un numéro par pote)
+  08 Attention ............. 12 x 7 cm
+  09 Écusson ............... 8 x 10 cm
+
+Impression : vinyle laminé (anti-UV), découpe à la forme (contour inclus dans les fichiers).
+Le pare-soleil se colle à l'intérieur du pare-brise : demander une impression "miroir" si besoin.
