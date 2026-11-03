@@ -1,0 +1,29 @@
+Tâche,Phase,Responsable,Statut,Priorité,Échéance,Notes
+Premier rendez-vous avec l'entreprise (recueil du besoin),1. Cadrage,,À faire,Haute,,Voir la base Réunions : ordre du jour de lancement
+Répartir les rôles dans le groupe,1. Cadrage,,À faire,Haute,,
+"Rédiger le cahier des charges (objectifs, cible, pages, fonctionnalités)",1. Cadrage,,À faire,Haute,,
+Faire valider le cahier des charges par l'entreprise,1. Cadrage,,À faire,Haute,,
+Établir le planning avec les échéances,1. Cadrage,,À faire,Haute,,
+Benchmark des sites concurrents,2. Conception,,À faire,Moyenne,,Noter les sites d'inspiration dans Ressources
+Définir l'arborescence du site (liste des pages),2. Conception,,À faire,Haute,,
+"Choisir la solution technique (WordPress, Wix, HTML/CSS…)",2. Conception,,À faire,Haute,,À décider avec l'entreprise (qui gérera le site ensuite ?)
+Réaliser les wireframes (zonings),2. Conception,,À faire,Moyenne,,
+"Définir la charte graphique (couleurs, typos, logo)",3. Design,,À faire,Haute,,
+Réaliser les maquettes (ordinateur + mobile),3. Design,,À faire,Haute,,
+Faire valider les maquettes par l'entreprise,3. Design,,À faire,Haute,,
+"Récupérer les contenus auprès de l'entreprise (textes, photos, logo)",4. Contenus,,À faire,Haute,,À demander tôt : c'est souvent ce qui bloque
+Rédiger et optimiser les textes (SEO),4. Contenus,,À faire,Moyenne,,
+"Préparer et optimiser les images (taille, poids)",4. Contenus,,À faire,Basse,,
+Nom de domaine et hébergement (voir avec l'entreprise),5. Développement,,À faire,Moyenne,,
+Installer l'outil / mettre en place l'environnement,5. Développement,,À faire,Haute,,
+Intégrer les pages,5. Développement,,À faire,Haute,,
+Adapter le site au mobile (responsive),5. Développement,,À faire,Haute,,
+Formulaire de contact,5. Développement,,À faire,Moyenne,,
+"Mentions légales, politique de confidentialité et cookies (RGPD)",5. Développement,,À faire,Haute,,Obligatoire pour un site d'entreprise
+"Tests (navigateurs, mobile, liens, formulaire)",6. Tests & mise en ligne,,À faire,Haute,,
+Corrections après les retours de l'entreprise,6. Tests & mise en ligne,,À faire,Haute,,
+Mise en ligne du site,6. Tests & mise en ligne,,À faire,Haute,,
+"Référencement de base (Google Search Console, titres et descriptions)",6. Tests & mise en ligne,,À faire,Moyenne,,
+Remettre les accès et un mini-guide d'utilisation à l'entreprise,7. Rendu,,À faire,Moyenne,,
+Rédiger le rapport / dossier de projet,7. Rendu,,À faire,Haute,,S'appuyer sur le journal de bord
+Préparer la soutenance,7. Rendu,,À faire,Haute,,
