@@ -2,6 +2,14 @@
 
 Modèle de tableau de bord Notion pour un projet de groupe : création du site internet d'une entreprise.
 
+## Méthode simple : copier-coller (recommandée)
+
+1. Ouvre `Copier-coller dans Notion.md` et copie tout le texte.
+2. Colle-le dans ta page Notion (Ctrl+V ou Cmd+V) : titres, cases à cocher et tableaux apparaissent automatiquement.
+3. Remplis les colonnes « Qui ? » et « Pour quand ? ».
+
+La méthode ci-dessous, avec les fichiers CSV, n'est utile que si tu veux de vraies bases de données Notion (vue Kanban, calendrier).
+
 ## Contenu
 
 | Fichier | Devient dans Notion |
